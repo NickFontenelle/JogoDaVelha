@@ -30,10 +30,16 @@ function verifica_ganhador() {
     if (casa01.innerHTML != "" && casa01.innerHTML === casa02.innerHTML && casa01.innerHTML === casa03.innerHTML) {
         alert(`Temos uma ganhador: ${casa01.innerHTML}`)
     }
-    else if (casa04.innerHTML != "" && casa04.innerHTML === casa05 && casa06 === casa04)  {
+    else if (casa04.innerHTML != "" && casa04.innerHTML === casa05.innerHTML && casa06.innerHTML === casa04.innerHTML)  {
         alert(`Temos uma ganhador: ${casa04.innerHTML}`)
     }
-    else if (casa07.innerHTML != "" && casa07.innerHTML === casa08 && casa09 === casa07){
+    else if (casa07.innerHTML != "" && casa07.innerHTML === casa08.innerHTML && casa09.innerHTML === casa07.innerHTML){
         alert(`Temos uma ganhador: ${casa07.innerHTML}`) 
     }
+    else if (casa01.innerHTML != "" && casa04.innerHTML === casa07.innerHTML && casa09.innerHTML === casa01.innerHTML ){
+        alert(`Temos uma ganhador: ${casa01.innerHTML}`) 
+    } 
+    else if (casa01.innerHTML != "" && casa04.innerHTML === casa07.innerHTML && casa09.innerHTML === casa01.innerHTML ){
+        alert(`Temos uma ganhador: ${casa01.innerHTML}`) }
+
 }
