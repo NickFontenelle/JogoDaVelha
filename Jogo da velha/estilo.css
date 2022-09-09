@@ -1,9 +1,9 @@
-main{
+main {
     border: 1px solid black;
     background-color: rgb(167, 167, 235);
 }
 
-.casa{
+.casa {
     border: 1px solid blue;
     width: 150px;
     height: 150px;
@@ -12,11 +12,13 @@ main{
     text-align: center;
     line-height: 150px;
 }
-.linha{
+
+.linha {
     display: grid;
     grid-template-columns: 150px 150px 150px;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
 }
